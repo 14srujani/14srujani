@@ -25,7 +25,7 @@ int main()
    for(month=0;month<12;month++){
 
       daysInMonth=monthDay[month];
-      printf("\n\n---------------%s-------------------\n",months[month]);
+      printf("\n\n--------------%s------------------\n",months[month]);
       printf("\n  Sun  Mon  Tue  Wed  Thurs  Fri  Sat\n");
 
       for(weekDay=0;weekDay<startingDay;weekDay++)
